@@ -26,7 +26,7 @@ namespace Taxually.Application.Features.VatRegistration.Commands
             if (!validationResult.IsValid)
             {
 
-                throw new BadRequestException("Invalid Leave Request", validationResult);
+                throw new BadRequestException("Invalid Tax Request", validationResult);
             }
 
             var registrationRequest = _mapper.Map<Domain.VatRegistrationRequest>(request);
