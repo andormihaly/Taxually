@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taxually.Domain", "Taxually
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taxually.Application", "Taxually.Application\Taxually.Application.csproj", "{C321D49D-D7A6-469E-B8BA-2B74D37158D0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taxually.Persistence", "Taxually.Persistence\Taxually.Persistence.csproj", "{CF83924E-9DEC-4218-B807-409553F83063}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{C321D49D-D7A6-469E-B8BA-2B74D37158D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C321D49D-D7A6-469E-B8BA-2B74D37158D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C321D49D-D7A6-469E-B8BA-2B74D37158D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF83924E-9DEC-4218-B807-409553F83063}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF83924E-9DEC-4218-B807-409553F83063}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF83924E-9DEC-4218-B807-409553F83063}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF83924E-9DEC-4218-B807-409553F83063}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -20,6 +20,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Taxually.Application\Taxually.Application.csproj" />
+    <ProjectReference Include="..\Taxually.Persistence\Taxually.Persistence.csproj" />
   </ItemGroup>
 
 </Project>
