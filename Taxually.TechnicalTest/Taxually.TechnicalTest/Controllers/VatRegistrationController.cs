@@ -1,10 +1,6 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using System.Text;
-using System.Xml.Serialization;
 using Taxually.Application.Features.VatRegistration.Commands;
-
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace Taxually.TechnicalTest.Controllers
 {
@@ -25,7 +21,7 @@ namespace Taxually.TechnicalTest.Controllers
         {
             var response = await _mediator.Send(request);
 
-            return Ok();
+            return NoContent();
         }
     }
 

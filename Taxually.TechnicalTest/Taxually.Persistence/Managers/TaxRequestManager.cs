@@ -4,7 +4,7 @@ using Taxually.Persistence.Builders;
 
 namespace Taxually.Persistence.Managers
 {
-    internal class TaxRequestManager : ITaxRequestManager
+    public class TaxRequestManager : ITaxRequestManager
     {
         private readonly IResolverBuilder _resolverBuilder;
 

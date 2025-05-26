@@ -2,7 +2,7 @@
 
 namespace Taxually.Persistence.Builders
 {
-    internal interface IResolverBuilder
+    public interface IResolverBuilder
     {
         IRegistrationResolver Build(string countryCode);
     }

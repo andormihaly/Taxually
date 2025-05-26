@@ -3,7 +3,7 @@ using Taxually.Persistence.Clients;
 
 namespace Taxually.Persistence.Resolvers
 {
-    internal class HttpResolver : IRegistrationResolver
+    public class HttpResolver : IRegistrationResolver
     {
         public async Task Manage(VatRegistrationRequest request)
         {

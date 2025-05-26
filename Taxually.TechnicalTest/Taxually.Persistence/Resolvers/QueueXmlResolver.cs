@@ -4,7 +4,7 @@ using Taxually.Persistence.Clients;
 
 namespace Taxually.Persistence.Resolvers
 {
-    internal class QueueXmlResolver : IRegistrationResolver
+    public class QueueXmlResolver : IRegistrationResolver
     {
         public async Task Manage(VatRegistrationRequest request)
         {
